@@ -87,7 +87,8 @@ def _ar1(rng: np.random.Generator, n: int, dt_h: float, tau_h: float, sigma: flo
     window = max(1, int(round(smooth_h / dt_h)))
     if window > 1 and n > window:
         x = pd.Series(x).rolling(window, center=True, min_periods=1).mean().to_numpy()
-        x *= sigma / x.std()
+        # Not in place: with pandas copy-on-write, .to_numpy() can return a read-only view.
+        x = x * (sigma / x.std())
     return x
 
 
