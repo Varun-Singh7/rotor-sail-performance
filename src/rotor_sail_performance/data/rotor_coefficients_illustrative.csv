@@ -1,0 +1,27 @@
+# ILLUSTRATIVE PLACEHOLDER DATA - NOT MEASUREMENTS.
+# These coefficients were hand-written to have a plausible shape for a
+# Flettner rotor with an end plate (lift rising with spin ratio and
+# flattening above SR ~5, drag rising at high SR, power ~ SR^3).
+# They are NOT taken from any experiment or manufacturer and must not be
+# used for design or commercial decisions. Replace them with published
+# experimental data - see the README section "Replacing the coefficient table".
+#
+# spin_ratio : SR = omega * R / V_apparent  [-]
+# cl         : lift coefficient, L = 0.5 * rho * A * cl * V^2  [-]
+# cd         : drag coefficient, D = 0.5 * rho * A * cd * V^2  [-]
+# cp         : electrical power coefficient, P = 0.5 * rho * A * cp * V^3  [-]
+# with A = rotor height * rotor diameter (projected area)
+spin_ratio,cl,cd,cp
+0.0,0.0,0.60,0.000
+0.5,0.6,0.55,0.003
+1.0,1.6,0.50,0.020
+1.5,2.8,0.55,0.060
+2.0,4.1,0.70,0.150
+2.5,5.4,0.90,0.290
+3.0,6.6,1.15,0.500
+3.5,7.6,1.45,0.800
+4.0,8.5,1.80,1.180
+4.5,9.2,2.15,1.700
+5.0,9.8,2.50,2.300
+5.5,10.2,2.85,3.050
+6.0,10.5,3.20,4.000
