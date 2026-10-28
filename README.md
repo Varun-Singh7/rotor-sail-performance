@@ -218,36 +218,46 @@ coefficients (check the end-plate geometry, aspect ratio and Reynolds number
 match your case):
 
 * Reid, E. G. (1924). *Tests of rotating cylinders.* NACA Technical Note 209.
-* Thom, A. (1934). *Effects of discs on the air forces on a rotating
-  cylinder.* Aeronautical Research Council R&M 1623.
-* Badalamenti, C. and Prince, S. A. (2008). *The effects of endplates on a
-  rotating cylinder in crossflow.* AIAA paper 2008-7063.
-* Bergeson, L. and Greenwald, C. K. (1985). *Sail assist developments
-  1979-1985.* Journal of Wind Engineering and Industrial Aerodynamics, 19.
-* De Marco, A. et al. (2016). *Flettner rotor concept for marine
-  applications: a systematic study.* International Journal of Rotating
-  Machinery.
-* Rotor manufacturers' published performance data and classification
-  society type approvals.
+  [NASA NTRS](https://ntrs.nasa.gov/citations/19930080991)
+* Thom, A. (1934). *Effect of discs on the air forces on a rotating
+  cylinder.* Aeronautical Research Committee R&M 1623.
+  [Cranfield archive](https://naca.central.cranfield.ac.uk/handle/1826.2/1421)
+* Badalamenti, C. and Prince, S. A. (2008). *Effects of endplates on a
+  rotating cylinder in crossflow.* 26th AIAA Applied Aerodynamics
+  Conference, AIAA 2008-7063.
+  [doi:10.2514/6.2008-7063](https://doi.org/10.2514/6.2008-7063)
+* De Marco, A., Mancini, S., Pensa, C., Calise, G. and De Luca, F. (2016).
+  *Flettner rotor concept for marine applications: a systematic study.*
+  International Journal of Rotating Machinery, 2016, 3458750.
+  [doi:10.1155/2016/3458750](https://doi.org/10.1155/2016/3458750)
+* Rotor manufacturers' published performance data (not a specific source;
+  check how any such data define area and power before using it).
 
-Rotor power coefficients are rarely published in non-dimensional form;
-they often have to be derived from motor power measurements.
+If a source gives rotor power rather than a power coefficient, convert it
+with the $C_P$ definition above.
 
 ## References
 
-* IMO MEPC.1/Circ.896 (2021). *Guidance on treatment of innovative energy
-  efficiency technologies for calculation and verification of the attained
-  EEDI and EEXI.* Includes the method for wind-assisted propulsion.
-* IMO MEPC.1/Circ.815 (2013). Earlier version of the same guidance.
-* IMO guidelines on the method of calculation of the attained EEDI (e.g.
-  MEPC.364(79)): source of the fuel carbon factors $C_F$.
+* IMO MEPC.1/Circ.896 (2021). *2021 Guidance on treatment of innovative
+  energy efficiency technologies for calculation and verification of the
+  attained EEDI and EEXI.* Includes the method for wind-assisted propulsion.
+  [IMO PDF](https://wwwcdn.imo.org/localresources/en/OurWork/Environment/Documents/Air%20pollution/MEPC.1-Circ.896.pdf)
+* IMO MEPC.1/Circ.815 (2013). The earlier guidance that Circ.896 supersedes.
+* IMO Resolution MEPC.364(79) (2022). *2022 Guidelines on the method of
+  calculation of the attained Energy Efficiency Design Index (EEDI) for new
+  ships.* Section 2.2.1 gives the carbon factors $C_F$, including 3.114 for
+  heavy fuel oil.
+  [IMO PDF](https://wwwcdn.imo.org/localresources/en/OurWork/Environment/Documents/annex/RESOLUTION%20MEPC.364(79).pdf)
 * ITTC Recommended Procedure 7.5-04-01-01.1, *Preparation, conduct and
-  analysis of speed/power trials*.
-* ISO 19030 (2016). *Ships and marine technology: measurement of changes in
-  hull and propeller performance.* Data filtering and reference conditions
-  for in-service performance monitoring.
+  analysis of speed/power trials* (2024 edition supersedes earlier ones).
+  [ITTC](https://www.ittc.info/)
+* ISO 19030-1, -2 and -3:2016. *Ships and marine technology: measurement of
+  changes in hull and propeller performance.* Data filtering and reference
+  conditions for in-service performance monitoring.
+  [ISO 19030-1](https://www.iso.org/standard/63774.html)
 * Tillig, F. and Ringsberg, J. W. (2020). *Design, operation and analysis of
-  wind-assisted cargo ships.* Ocean Engineering, 211.
+  wind-assisted cargo ships.* Ocean Engineering, 211, 107603.
+  [doi:10.1016/j.oceaneng.2020.107603](https://doi.org/10.1016/j.oceaneng.2020.107603)
 
 ## Licence
 
